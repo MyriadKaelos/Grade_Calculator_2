@@ -1,0 +1,26 @@
+body {
+    background-color: burlywood;
+    background-size: 300px 200px;
+}
+h1,h2,h3,h4,p {
+    color: darkgoldenrod;
+}
+
+table {
+    border: 1px rosybrown;
+    background-color: beige;
+}
+th,td {
+    border: 1px solid rosybrown;
+    background-color: beige;
+    width: 180px;
+}
+input {
+    width: 80px;
+    border: 1px solid gainsboro;
+
+}
+html {
+    font-family: Calibri;
+    color: darkslategray;
+}

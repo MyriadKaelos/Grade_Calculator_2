@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="myFunction()">
+    <h1>HTML Grade Calculator</h1>
+    <table>
+        <tr>
+            <th>Period</th>
+            <th>Quizzes</th>
+            <th>Tests</th>
+            <th>Homework</th>
+            <th>Midterm</th>
+        </tr>
+        <tr id="period1"><td>History</td></tr>
+        <tr id="period2"><td>English</td></tr>
+        <tr id="period3"><td>Language</td></tr>
+        <tr id="period4"><td>Elective</td></tr>
+        <tr id="period5"><td>Math</td></tr>
+        <tr id="period6"><td>Science</td></tr>
+    </table>
+    <div id="weightError" value="false"></div>
+    <div id="scoreError" value="false"></div>
+    <div id="finalError" value="false"></div>
+    <div id="scoreNeeded1"></div>
+    <div id="scoreNeeded2"></div>
+    <div id="scoreNeeded3"></div>
+    <div id="scoreNeeded4"></div>
+    <div id="scoreNeeded5"></div>
+    <div id="scoreNeeded6"></div>
+    <table>
+        <tr id="FinalPeriod1"><td>Period One <input id="FinalWeight1" type="number" placeholder="Final Weight" max="100" min="0"></td></tr>
+        <tr id="FinalPeriod2"><td>Period Two <input id="FinalWeight2" type="number" placeholder="Final Weight" max="100" min="0"></td></tr>
+        <tr id="FinalPeriod3"><td>Period Three <input id="FinalWeight3" type="number" placeholder="Final Weight" max="100" min="0"></td></tr>
+        <tr id="FinalPeriod4"><td>Period Four <input id="FinalWeight4" type="number" placeholder="Final Weight" max="100" min="0"></td></tr>
+        <tr id="FinalPeriod5"><td>Period Five <input id="FinalWeight5" type="number" placeholder="Final Weight" max="100" min="0"></td></tr>
+        <tr id="FinalPeriod6"><td>Period Six <input id="FinalWeight6" type="number" placeholder="Final Weight" max="100" min="0"></td></tr>
+    </table>
+    <button onclick="calculate_score()">Click this to calculate the necessary grade in your final to get an A in the Class</button>
+</body>
+</html>
